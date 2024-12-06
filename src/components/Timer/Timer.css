@@ -1,0 +1,44 @@
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .timer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .timer-icon {
+    margin-right: 5px;
+  }
+  
+  .time {
+    font-size: 1.2em;
+  }
+  
+  .progress-bar {
+    flex-grow: 1;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #6200ea;
+    border-radius: 5px;
+  }
+  
+  .close-time {
+    font-size: 1em;
+    color: #000;
+    cursor: pointer;
+  }
+  

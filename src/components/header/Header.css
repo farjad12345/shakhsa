@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    height: 78px;
+border-bottom: 1px solid black;
+display: flex;
+justify-content: center;
+}
+.cantainer{
+max-width: 1302px; 
+display: flex;
+justify-content: space-between;
+width: 100%;   
+align-items: center;
+  }
+  .header-right,
+  .header-center{
+    display: flex;
+    align-items: center;
+}
+.header-right-logo{
+    margin-left: 10px;
+}
+.header-center{
+justify-content: space-evenly;
+width: 88px;
+gap: 10px;
+letter-spacing: 2px;
+font-weight: 600;
+}
+.header-left{
+    text-align: left;
+}
+.header-left-logo{
+    font-weight: bold;
+    font-size: 20px;
+        line-height: 23.86px
+}
+.header-left-text{
+font-weight: 200;
+font-size: 12px;}

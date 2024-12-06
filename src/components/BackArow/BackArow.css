@@ -1,0 +1,17 @@
+.back{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+top: 109px;
+}
+.back img{
+    width: 28px;
+    height: 28px;
+}
+.back a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #000A1F;
+}
